@@ -1,0 +1,16 @@
+{
+  "alert": {"id": "ALERT-001", "user": "analyst-demo", "ip": "203.0.113.42"},
+  "events": [
+    {"id": "EV-001", "timestamp": "2026-09-19T11:50:00+00:00", "user": "analyst-demo", "ip": "203.0.113.42", "outcome": "failure"},
+    {"id": "EV-002", "timestamp": "2026-09-19T11:51:00+00:00", "user": "analyst-demo", "ip": "203.0.113.42", "outcome": "failure"},
+    {"id": "EV-003", "timestamp": "2026-09-19T11:52:00+00:00", "user": "analyst-demo", "ip": "203.0.113.42", "outcome": "failure"},
+    {"id": "EV-004", "timestamp": "2026-09-19T11:53:00+00:00", "user": "analyst-demo", "ip": "203.0.113.42", "outcome": "failure"},
+    {"id": "EV-005", "timestamp": "2026-09-19T11:54:00+00:00", "user": "analyst-demo", "ip": "203.0.113.42", "outcome": "failure"},
+    {"id": "EV-006", "timestamp": "2026-09-19T11:55:00+00:00", "user": "analyst-demo", "ip": "203.0.113.42", "outcome": "success"}
+  ],
+  "intelligence": [
+    {"id": "TI-001", "source": "Synthetic research feed A", "observed_at": "2026-09-18T00:00:00+00:00", "confidence": 75, "claim": "suspicious", "text": "Lab observation of repeated login attempts. Attribution is unknown."},
+    {"id": "TI-002", "source": "Synthetic research feed B", "observed_at": "2026-09-17T00:00:00+00:00", "confidence": 60, "claim": "shared_hosting", "text": "Shared infrastructure may have unrelated users; IP reputation alone is insufficient."},
+    {"id": "TI-003", "source": "Synthetic historical feed", "observed_at": "2025-01-01T00:00:00+00:00", "confidence": 90, "claim": "suspicious", "text": "Historical report; ownership may have changed."}
+  ]
+}
