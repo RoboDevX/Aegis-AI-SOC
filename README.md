@@ -1,6 +1,6 @@
 # Aegis — AI SOC
 
-**Experimental AI-powered Security Operations Center environment for security investigation, threat intelligence enrichment, detection analysis, and secure agentic workflows.**
+**AI-powered Security Operations Center environment for security investigation, threat intelligence enrichment, detection analysis, and secure agentic workflows.**
 
 Aegis explores how AI can support SOC investigations while remaining constrained by deterministic security controls. The project treats an AI SOC analyst as both a **security capability** and a **security boundary**: models may propose investigative actions, but application code decides what is authorized, what evidence is required, and what becomes part of the final assessment.
 
