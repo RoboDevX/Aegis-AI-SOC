@@ -132,5 +132,3 @@ All included identities, events, indicators, and intelligence are synthetic or r
 ## Author
 
 **Robert Picasio Jr.**
-
-Cybersecurity Engineer focused on AI Security, Detection Engineering, Threat Intelligence, and Threat Exposure Management.
